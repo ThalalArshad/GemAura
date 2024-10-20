@@ -1,0 +1,54 @@
+body {
+    background-color: #f0f8ff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+p {
+    color: #4682b4;
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+b {
+    color: #8098ff;
+}
+
+u {
+    color: #8098ff;
+}
+
+.quick-links {
+    color: yellow; /* Color for the "QUICK LINKS" text */
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.quick-links a {
+    color: orange; /* Default link color */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.quick-links a:hover {
+    color: lightblue; /* Link color on hover */
+}
+
+.quick-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.quick-links li {
+    margin: 10px 0;
+}

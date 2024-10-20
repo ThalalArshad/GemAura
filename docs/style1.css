@@ -1,0 +1,161 @@
+/* Resetting margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;          
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; /* Light background for contrast */
+    color: #333; /* Dark text for readability */
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background-color: #000141; /* Bright orange header */
+    color: #f0a500;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Contact Info Styling */
+.contact-info, .business-hours, .social-media {
+    background-color: #fff; /* White background for sections */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px; /* Center align and limit width */
+}
+
+
+
+
+
+
+button {
+    background-color: #ff5722; /* Bright orange button */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #e64a19; /* Darker orange on hover */
+}
+
+/* Social Media Links */
+.social-media {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-media a {
+    display: inline-block;
+    margin: 5px 10px;
+    color: #ff5722; /* Bright orange color for links */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.social-media a:hover {
+    color: #e64a19; /* Darker orange on hover */
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333; /* Dark footer */
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #ff5722; /* Bright orange links in footer */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+
+
+
+
+/* Section Styling */
+section {
+    background-color: #fff; /* White background for sections */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px; /* Center align and limit width */
+}
+
+/* Headings */
+h2 {
+    color: #ff5722; /* Bright orange for subheadings */
+    margin-bottom: 15px;
+}
+
+/* List Styling */
+ul {
+    list-style-type: none; /* Remove default bullets */
+    padding-left: 0; /* Remove default padding */
+}
+
+li {
+    margin-bottom: 10px; /* Space between list items */
+}
+
+/* Team Member Styling */
+.team-member {
+    margin: 20px 0;
+}
+
+/* Call to Action */
+.call-to-action {
+    text-align: center;
+    background-color: #ffeb3b; /* Light yellow for contrast */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+/* Main Content Styling */
+main {
+    max-width: 800px; /* Center align and limit width */
+    margin: 20px auto;
+    background-color: #fff; /* White background for content */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    padding: 20px;
+}
+
+
+    
+
+/* Headings */
+h1 {
+    font-size: 2em; /* Larger font for the main heading */
+}
+
